@@ -31,6 +31,10 @@ print(wow.strip('-').split(' '))
 print('tacocat'.replace('c', 'r'))
 '''
 '''
+even_list = [x for x in range(10) if x%2==0]
+print(even_list)
+'''
+'''
 temp_list = ['My ', '', 'textbook ', '', '', 'is', 'quite', '', 'old']
 temp_list = [tmp for tmp in temp_list if tmp]
 print(temp_list)
