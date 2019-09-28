@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta lang="ko-kr">
+        <title> 웹크롤링 예제</title>
+        <style>
+            h1 {
+                color: green;
+            }
+            .c {
+                color: orange;
+                background: black;
+                margin: 20px;   
+            }
+            #special {
+                color: indigo;
+                text-align: center;
+                background: beige;
+                margin: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>안녕하세요!</h1>
+        <div class="c">
+            python3 + beautifulsoup4와 함께<br/> 
+            즐거운 웹크롤링을 해봅시다.
+        </div>
+        <p class="c" id="special">
+            id는 class보다 더 강력합니다.<br/>
+            그렇기 때문에, class에서 지정한 문자 컬러가 orange라도<br/>
+            여기서는 indigo 컬러의 문자를 출력하게 되죠.
+        </p>
+        <p align="center">
+            이 영역은 클래스, id가 없는 평범한 영역입니다.
+        </p>
+        <span id="special">
+            <a href="http://www.naver.com">야호! 네이버다!!!</a>
+        </span>
+    </body>
+</html>
