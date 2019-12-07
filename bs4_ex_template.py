@@ -7,3 +7,4 @@ for line in fp:
 fp.close
 
 soup = BeautifulSoup(html, "html.parser")
+
